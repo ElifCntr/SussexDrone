@@ -1,0 +1,29 @@
+# Editor settings (PyCharm, VS Code)
+.idea/
+.vscode/
+
+# Python build/cache files
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Large dataset files — never commit videos or frames
+dataset/
+*.mp4
+*.MP4
+*.mov
+*.MOV
+*.avi
+*.jpg
+*.jpeg
+*.png
+*.zip
+
+# Allow images in docs folder (they're useful for the README)
+!docs/**/*.png
+!docs/**/*.jpg
+
+# OS junk
+Thumbs.db
+.DS_Store
