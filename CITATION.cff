@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+title: "SussexDrone: a small-drone detection dataset with bird annotations"
+message: "If you use this dataset, please cite it as below."
+type: dataset
+authors:
+  - family-names: Ucurum
+    given-names: Elif
+    affiliation: "University of Sussex"
+  - family-names: Birch
+    given-names: Phil
+    affiliation: "University of Sussex"
+abstract: >-
+  SussexDrone is a video dataset for small-drone detection and drone-versus-bird
+  discrimination. It contains 211 annotated video clips across three camera types
+  (GoPro, Fujifilm, DJI) with bounding-box annotations for drones and birds, and
+  defines detection and trajectory subsets with train/val/test splits free of
+  session leakage.
+keywords:
+  - drone detection
+  - small object detection
+  - drone versus bird
+  - computer vision
+  - deep learning
+license: CC-BY-4.0
+version: "1.0"
+date-released: "2026-01-01"
